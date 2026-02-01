@@ -34,7 +34,7 @@ sudo adduser Invitado
 
 sudo usermod -aG Guest Invitado
 
-sudo usermod -aG Guest javier
+sudo usermod -aG Guest Invitado
 
 sudo userdel -r Invitado
 
