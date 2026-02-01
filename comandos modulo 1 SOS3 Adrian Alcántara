@@ -28,13 +28,15 @@ sudo passwd adrian
 
 sudo usermod -aG wheel adrian
 
+groups adrian
+
 sudo groupadd Guest
 
-sudo adduser Invitado
+sudo adduser invitado
 
-sudo usermod -aG Guest Invitado
+sudo usermod -aG Guest invitado
 
-sudo usermod -aG Guest Invitado
+groups invitado
 
 sudo userdel -r Invitado
 
@@ -42,7 +44,6 @@ sudo group Guest
 
 sudo groupdel Guest
 
-ls
 ===================================================================
 comandos usados practica 4: Gestion de Permisos de archivos
 mkdir materia
