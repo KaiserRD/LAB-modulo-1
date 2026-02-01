@@ -22,11 +22,11 @@ ifconfig
 ===================================================================
 comandos usados practica 3: Configuración de parametros de red.
 
-sudo adduser javier
+sudo adduser adrian
 
-sudo passwd javier
+sudo passwd adrian
 
-sudo usermod -aG wheel
+sudo usermod -aG wheel adrian
 
 sudo groupadd Guest
 
