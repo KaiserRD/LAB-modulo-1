@@ -19,6 +19,9 @@ nmcli con up ens160
 
 ifconfig
 
+sudo dnf install NetworkManager-tui -y
+
+sudo nmtui
 ===================================================================
 comandos usados practica 3: Configuración de parametros de red.
 
